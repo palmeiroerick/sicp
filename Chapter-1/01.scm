@@ -1,4 +1,10 @@
+;; Exercise 1.1: Below is a sequence of expressions. What is
+;; the result printed by the interpreter in response to each ex-
+;; pression? Assume that the sequence is to be evaluated in
+;; the order in which it is presented.
+
 10
+
 ;;Value: 10 
 
 (+ 5 3 4)
