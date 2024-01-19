@@ -39,4 +39,4 @@
 
 Some extra exercises that I wanted to practice
 
-- [Hello, World!](./Extras/01.scm)
+- [Hello, World!](./Extras/hello-world.scm)
