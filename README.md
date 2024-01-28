@@ -40,3 +40,4 @@
 Some extra exercises that I wanted to practice
 
 - [Hello, World!](./Extras/hello-world.scm)
+- [Leap Year](./Extras/leap-year.scm)
