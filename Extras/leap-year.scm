@@ -20,8 +20,6 @@
 
 (newline)
 
-;; (define year (read))
-
 (display "Enter a year: ")
 (define year (year-input))
 
