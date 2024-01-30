@@ -10,10 +10,20 @@
          (not (divisible-by? year 100))) #t)
    (else #f)))
 
+(define (year-input)
+  (define year (read))
+  (if (and (number? year) (> year 0))
+      year
+      (begin
+        (display "Enter a valid value: ")
+        (year-input))))
+
 (newline)
 
+;; (define year (read))
+
 (display "Enter a year: ")
-(define year (read))
+(define year (year-input))
 
 (newline)
 
