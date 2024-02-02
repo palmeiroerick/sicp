@@ -1,4 +1,3 @@
-;; Create a program that writes "Hello, world!". 
+;; Create a function that returns "Hello, world!". 
 
-(display "Hello, World!")
-(newline)
+(define (hello-world) "Hello, World!")
